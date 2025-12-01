@@ -35,9 +35,9 @@ body {
   );
 }
 
-.hero-icon{
-   color: #3F5EFB;
-   height:24px;
+.hero-icon {
+  color: #3f5efb;
+  height: 24px;
 }
 
 .catagory-list h5 {
@@ -82,8 +82,8 @@ body {
   background-color: #1e1e1e;
 }
 
-.feature-section h5{
-    font-size: 64px;
+.feature-section h5 {
+  font-size: 64px;
 }
 
 .down-arrow {
@@ -116,11 +116,8 @@ body {
   filter: invert(1); /* quick way to turn dark arrow white */
 }
 
-#footer{
-    background-color: #3a3737;
-
-
-
+#footer {
+  background-color: #3a3737;
 }
 
 /* .demo-section img{
@@ -128,29 +125,29 @@ body {
      border-radius: 10px;
 } */
 
-.demo-section img{
+.demo-section img {
   height: 400px;
-  border: 6px solid; 
+  border: 6px solid;
   border-radius: 24px;
-  border-image: radial-gradient(circle, rgba(63,94,251,1), rgba(252,70,107,1)) 1;
+  border-image: radial-gradient(
+      circle,
+      rgba(63, 94, 251, 1),
+      rgba(252, 70, 107, 1)
+    )
+    1;
 }
 
-
-
-
-
 /* media queries */
-
 
 /* small */
 
 @media (max-width: 576px) {
- .hero-section h2 {
-    font-size: 1.75rem;   
+  .hero-section h2 {
+    font-size: 1.75rem;
     /* 28px */
   }
 
- .hero-section p {
+  .hero-section p {
     font-size: 0.95rem;
   }
 
@@ -166,21 +163,19 @@ body {
     font-size: 14px;
   }
 
- .feature-section h5{
+  .feature-section h5 {
     margin-bottom: 2px;
-} 
+  }
 
-/* */
-.container {
-    padding: .5rem;
+  /* */
+  .container {
+    padding: 0.5rem;
   }
 
   .hero-section {
     min-height: 14rem;
     padding: 2rem 1rem;
   }
-
-  
 
   .feature-section h5 {
     font-size: 2.5rem;
@@ -191,27 +186,22 @@ body {
     padding: 0.65rem 0.75rem;
   }
 
-.accordion-button
-  {
+  .accordion-button {
     font-size: 20px;
   }
-  .demo-section img{
-    height: 150px !important;
+  .demo-section img {
+    height: 200px !important;
     display: flex;
-
+    margin: 0 auto;
     flex-direction: column;
+    align-items: center;
   }
-
-
-
 }
-
- 
 
 /* medium screens */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-   .container {
+  .container {
     padding: 16px;
   }
 
@@ -230,25 +220,20 @@ body {
 
   .feature-section h5 {
     font-size: 3.5rem;
-    margin-bottom:0;
-    margin:4px;
+    margin-bottom: 0;
+    margin: 4px;
   }
 
   .accordion-button {
     font-size: 1rem;
   }
-  
 }
-
-
 
 /* Medium Screens */
 @media (min-width: 768px) {
-   .container {
+  .container {
     padding: 16px;
   }
-
-  
 
   .hero-section {
     min-height: 16rem;
@@ -271,7 +256,4 @@ body {
     font-size: 1.15rem;
     padding: 0.75rem 1rem;
   }
-  
 }
-
-
