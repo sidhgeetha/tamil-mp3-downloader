@@ -1,13 +1,12 @@
 # Project Title
 
-Landing page for MP3-Downloader - UI -HTML CSS
+Landing page for MP3-Downloader - UI -HTML CSS Bootstrap
 
 ## 🚀 Features
 
 1. Dowload songs instantly.
 2. Download songs by category.
 3. Download andn listern songs anywhere , even if you are in offline
-
 
 ![alt text](image.png)
 
