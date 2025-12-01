@@ -8,7 +8,7 @@ Landing page for MP3-Downloader - UI -HTML CSS Bootstrap
 2. Download songs by category.
 3. Download andn listern songs anywhere , even if you are in offline
 
-link : https://mp3-downloader-landingpage.netlify.app/
+link : https://mp3-downloader-tamilsongs.netlify.app/
 
 ![alt text](image.png)
 ![alt text](image-1.png)
